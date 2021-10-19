@@ -8,5 +8,5 @@ def index():
   return render_template('index.html')
 
 @app.route('/FavoriteThings')
-def test():
+def FavoriteThings():
   return render_template('FavoriteThings.html')
